@@ -1,0 +1,7 @@
+include README.md
+include .project
+include .pydevproject
+include src/challenge/test.csv
+include src/db.sqlite3
+recursive-include src/challenge/templates *
+recursive-include src/challenge *.py
